@@ -1,6 +1,6 @@
 # Typhoon
 
-<img src="http://image.noelshack.com/fichiers/2018/50/1/1544456374-tornado-2.png" align="right" title="Typhoon's logo." height="241px" width="241px"/>
+<img src="http://image.noelshack.com/fichiers/2018/50/1/1544456374-tornado-2.png" align="right" title="Typhoon's logo." height="128px" width="128px"/>
 
 # Introduction
 
