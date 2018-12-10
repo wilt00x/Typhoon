@@ -25,3 +25,15 @@ It can be used on **many architectures**, **file formats** and **operating-syste
 **- A hexadecimal editor** ==> v0.1
 
 **- A ROPchain generator** ==> v0.1
+
+## Available for which architectures?
+
+i386, x86-64, ARM, MIPS.
+
+## Available for which file formats?
+
+Executable and Linking Format (ELF), Portable Executable (PE), Mach-O.
+
+## Available for which operating-systems ?
+
+Microsoft Windows(All versions), GNU/Linux, IOS.
