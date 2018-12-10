@@ -16,9 +16,9 @@ It can be used on **many architectures**, **file formats** and **operating-syste
 
 ## Content of Typhoon: 
 
-**- A patcher** ==> v0.1
+-** A patcher** ==> v0.1
 
-**- A gadget finder** ==> v0.1
+-** A gadget finder** ==> v0.1
 
 **- A little disassembler** ==> v0.1
 
