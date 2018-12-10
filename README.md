@@ -6,6 +6,8 @@
 
 [![madewithpython](https://forthebadge.com/images/badges/made-with-python.svg)]()
 
+[![works](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)]()
+
 # Introduction
 
 Typhoon is a security-oriented and cross-platform tool created to help exploit application vulnerabilities by analyzing and extracting data from vulnerable binary file.
