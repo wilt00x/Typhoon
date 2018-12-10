@@ -18,9 +18,9 @@ Typhoon is a security-oriented and cross-platform tool created to help exploit a
 
 **- A gadget finder** ==> v0.1
 
-**- A ROPchain generator** ==> v0.1
-
 **- A little disassembler** ==> v0.1
+
+**- A ROPchain generator** ==> v0.1
 
 **- An hexadecimal editor** ==> v0.1
 
