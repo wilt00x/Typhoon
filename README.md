@@ -12,6 +12,8 @@
 
 Typhoon is a security-oriented and cross-platform tool created to help exploit application vulnerabilities by analyzing and extracting data from vulnerable binary file.
 
+It can be used on **many architectures**, **file formats** and **operating-system**.
+
 ## Content of Typhoon: 
 
 **- A patcher** ==> v0.1
@@ -23,5 +25,3 @@ Typhoon is a security-oriented and cross-platform tool created to help exploit a
 **- A ROPchain generator** ==> v0.1
 
 **- An hexadecimal editor** ==> v0.1
-
-It can be used on many architectures, file formats and operating-system.
