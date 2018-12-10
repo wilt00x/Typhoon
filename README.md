@@ -22,6 +22,6 @@ It can be used on **many architectures**, **file formats** and **operating-syste
 
 **- A little disassembler** ==> v0.1
 
-**- A ROPchain generator** ==> v0.1
+**- A hexadecimal editor** ==> v0.1
 
-**- An hexadecimal editor** ==> v0.1
+**- A ROPchain generator** ==> v0.1
