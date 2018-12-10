@@ -34,6 +34,11 @@ i386, x86-64, ARM, MIPS.
 
 Executable and Linking Format (ELF), Portable Executable (PE), Mach-O.
 
-## Available for which operating-systems ?
+## Available for which operating-systems?
+
+# Dependencies
+
+This tool has been compiled with **g++**, so it is necessary to have this compiler. You must also be able to use **make**.
+
 
 Microsoft Windows(All versions), GNU/Linux, IOS.
