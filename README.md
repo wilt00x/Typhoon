@@ -40,4 +40,4 @@ Microsoft Windows(All versions), GNU/Linux, IOS.
 
 # Dependencies
 
-This tool has been compiled with **g++**, so it is necessary to have this compiler. You must also be able to use **make**.
+This tool has been compiled with **gcc**, so it is necessary to have this compiler. You must also be able to use **make**.
