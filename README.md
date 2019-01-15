@@ -29,7 +29,7 @@ It can be used on **many architectures**, **file formats** and **operating-syste
 > (generate a ropchain that can be executed or written in a file at any time)
 
 **- An hexadecimal viewer / editor** -> v0.1 
-> (observe the hexadecimal and ascii equivalent of the program or write a string at a specified location.)
+> (observe the hexadecimal and ascii equivalent of the program or write a string at a specified location)
 
 ## Available for which architectures?
 
