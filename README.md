@@ -12,7 +12,7 @@
 
 Typhoon is a security-oriented and cross-platform tool created for help exploit program's vulnerabilities by analyzing and extracting data from vulnerable binary file.
 
-It can be used on **many architectures**, **file formats** and **operating-system**.
+It can be used on **many architectures**, **file formats** and **operating-systems**.
 
 ## Content of Typhoon's sections: 
 
