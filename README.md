@@ -37,13 +37,12 @@ It can be used on **many architectures**, **file formats** and **operating-syste
 
 ## Available for which file formats?
 
-Executable and Linking Format (ELF), Portable Executable (PE), Mach-O.
 <a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">Executable and Linking Format (ELF)</a>, <a href="https://en.wikipedia.org/wiki/Portable_Executable">Portable Executable (PE)</a>, <a href="https://en.wikipedia.org/wiki/Mach-O">Mach-O</a>.
 
 ## Available for which operating-systems?
 
 Microsoft Windows(All versions), GNU/Linux, IOS.
 
-# Dependencies
+## Dependencies
 
 This tool has been compiled with **gcc**, so it is necessary to have this compiler. You must also be able to use **make**.
