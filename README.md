@@ -35,8 +35,6 @@ It can be used on **many architectures**, **file formats** and **operating-syste
 
 <a href="https://en.wikipedia.org/wiki/X86">x86</a>, <a href="https://en.wikipedia.org/wiki/X64">x86-64</a>, <a href="https://en.wikipedia.org/wiki/ARM_architecture">ARM (Advanced/Acorn RISC Machine)</a>, <a href="https://en.wikipedia.org/wiki/MIPS_architecture">MIPS (Microprocessor without Interlocked Pipelined Stages).</a> 
 
-x86, 64, ARM, MIPS.
-
 ## Available for which file formats?
 
 Executable and Linking Format (ELF), Portable Executable (PE), Mach-O.
