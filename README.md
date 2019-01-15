@@ -10,21 +10,21 @@
 
 # Introduction
 
-Typhoon is a security-oriented and cross-platform tool created to help exploit application vulnerabilities by analyzing and extracting data from vulnerable binary file.
+Typhoon is a security-oriented and cross-platform tool created for help exploit program's vulnerabilities by analyzing and extracting data from vulnerable binary file.
 
 It can be used on **many architectures**, **file formats** and **operating-system**.
 
-## Content of Typhoon: 
+## Content of Typhoon's sections: 
 
-**- A patcher** ==> v0.1
+**- A patcher in command line** -> v0.1 (write an hexadecimal string at a specific place)
 
-**- A gadget finder** ==> v0.1
+**- A gadget finder** -> v0.1 (search for a piece of code ending with the 'ret' instruction)
 
-**- A little disassembler** ==> v0.1
+**- A precise disassembler** -> v0.1 (starts disassembling the program from an address or an offset)
 
-**- A hexadecimal editor** ==> v0.1
+**- A ROPchain generator** -> v0.1 (generate a ropchain that can be executed or written in a file at any time)
 
-**- A ROPchain generator** ==> v0.1
+**- An hexadecimal viewer / editor** -> v0.1 (observe the hexadecimal and ascii equivalent of the program or write a string at a specified location.)
 
 ## Available for which architectures?
 
