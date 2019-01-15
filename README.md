@@ -16,15 +16,20 @@ It can be used on **many architectures**, **file formats** and **operating-syste
 
 ## Content of Typhoon's sections: 
 
-**- A patcher in command line** -> v0.1 (write an hexadecimal string at a specific place)
+**- A patcher in command line** -> v0.1 
+> (write an hexadecimal string at a specific place)
 
-**- A gadget finder** -> v0.1 (search for a piece of code ending with the 'ret' instruction)
+**- A gadget finder** -> v0.1 
+> (search for a piece of code ending with the 'ret' instruction)
 
-**- A precise disassembler** -> v0.1 (starts disassembling the program from an address or an offset)
+**- A precise disassembler** -> v0.1 
+> (starts disassembling the program from an address or an offset)
 
-**- A ROPchain generator** -> v0.1 (generate a ropchain that can be executed or written in a file at any time)
+**- A ROPchain generator** -> v0.1 
+> (generate a ropchain that can be executed or written in a file at any time)
 
-**- An hexadecimal viewer / editor** -> v0.1 (observe the hexadecimal and ascii equivalent of the program or write a string at a specified location.)
+**- An hexadecimal viewer / editor** -> v0.1 
+> (observe the hexadecimal and ascii equivalent of the program or write a string at a specified location.)
 
 ## Available for which architectures?
 
