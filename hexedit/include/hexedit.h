@@ -1,5 +1,5 @@
-#ifndef HEXEDIT_H
-#define HEXEDIT_H
+#ifndef __HEXEDIT_H_
+#define __HEXEDIT_H_
 
 #include <stdio.h>
 #include <stdlib.h>
