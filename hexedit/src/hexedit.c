@@ -1,5 +1,5 @@
-#ifndef HEXEDIT_C
-#define HEXEDIT_C
+#ifndef __HEXEDIT_C_
+#define __HEXEDIT_C_
 
 #include "../include/hexedit.h"
 
