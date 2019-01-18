@@ -32,8 +32,7 @@ SOFTWARE.
 
 int main(int argc, char **argv)
 {
-	printf("\n"
-               INFOS
-               "yo poto");
+	printf(INFOS
+	       "test period..."); // test
 	return 0;
 }
