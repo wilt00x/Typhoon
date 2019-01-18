@@ -1,3 +1,4 @@
+#!/usr/bin/python2.7
 # -*- encoding:utf-8 -*-
 
 """
@@ -26,7 +27,6 @@ SOFTWARE.
 
 // DEVELOPED by wil.tor
 """
-#!/usr/bin/python2.7
 
 import os
 
