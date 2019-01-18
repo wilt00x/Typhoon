@@ -2,7 +2,7 @@
 # -*- encoding:utf-8 -*-
 
 """
--> licence_generate.py
+-> '/external/licence_generate.py'
 
 Copyright (c) 2019 B.Will.
 
