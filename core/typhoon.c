@@ -32,6 +32,7 @@ SOFTWARE.
 
 int main(int argc, char **argv)
 {
+	printf(return_random_banner());
 	printf(INFOS
 	       "test period..."); // test
 	return 0;
