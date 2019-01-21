@@ -32,6 +32,6 @@ SOFTWARE.
 #include <unistd.h>
 #include <string.h>
 
-char *save_hexadecimal_format_file(const char *file_location);
+char *binary_file_to_hexadecimal(const char *file_location);
 
 #endif
