@@ -29,36 +29,48 @@ SOFTWARE.
 
 #include "../include/hexedit.h"
 
+void split_hexadecimal( char *start, int n) 
+ {
+     unsigned int k=1;
+     char *c=(char*)&k;
+     if(*c)
+     {
+         int i; 
+         for (i = 0; i < n; i++) 
+         printf ( " %.2x" , start[i]&0xff); 
+         printf ( "\n" ); 
+     } else
+     {
+         printf("big\n");
+     }
+ } 
+
 char *binary_file_to_hexadecimal(const char *file_location)
 {
-	int pos;
+	int curs;
 	int i, j;
 
 	FILE *fp;
 	char *buffer;
-	char *new_buff;
+	char *ret_buffer;
 
 	if((fp=fopen(file_location, "r")) == NULL)
 		printf("[-] An error was occured : '%s' does not exist or can not be opened.", file_location);
 
 	fseek(fp, 0, SEEK_END);
-	pos=ftell(fp);
+	curs=ftell(fp);
 
 	fseek(fp, 0, SEEK_SET);
-	buffer=calloc(pos, sizeof(char))+1;
-	new_buff=calloc(pos*2, sizeof(char)+1);
+	buffer=calloc(curs, sizeof(char))+1;
 
-	fread(buffer, sizeof(char), pos, fp);
+	fread(buffer, sizeof(char), curs, fp);
 
 	fclose(fp);
 
-	for(i=0, j=0;i < strlen(buffer); i++, j+=2)
-	{
-		sprintf((char*)new_buff+j, "%02x", buffer[i]);
-	}
-	printf("%s\n\n", new_buff);
+	ret_buffer=(char*)malloc(strlen(buffer)+1);
+	snprintf(ret_buffer, strlen(buffer)+1, "%02x", buffer);
 
-	return new_buff;
+	return ret_buffer;
 }
 
 #endif
