@@ -29,25 +29,35 @@ SOFTWARE.
 
 #include "../include/hexedit.h"
 
-void split_hexadecimal(char *start) 
- {
+void split_hexadecimal(char *hexadecimal_str)
+{
+     int i;
      unsigned int k=1;
      char *c=(char*)&k;
-     if(*c)
-     {
-         int i; 
-         for (i=0; i < strlen(start); i++) 
-            printf ( " %.2x" , start[i]&0xff); 
-         printf ( "\n" ); 
-     } else
-     {
-         int i;
-         for(i=0; i < strlen(start); i++)
-         {
-             printf("a");
-         }
-     }
- } 
+
+    for (i=0; i < strlen(hexadecimal_str); i++)
+    {
+        if(*c) // little-endian
+        {
+            if(i == 0)
+                printf("%.8x -> ", i);
+
+            printf (" %.2x" , hexadecimal_str[i]&0xff);
+
+            if(i == 16*(i/16) && i != 0)
+                printf("\n%.8x ->  ", i);
+        } else  // big-endian
+        {
+            if(i == 0)
+                printf("%.8x -> ", i);
+
+            printf (" %2x" , hexadecimal_str[i]&0xff);
+
+            if(i == 16*(i/16) && i != 0)
+                printf("\n%.8x -> ", i);
+        }
+    }
+}
 
 char *binary_file_to_hexadecimal(const char *file_location)
 {
