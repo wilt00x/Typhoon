@@ -29,19 +29,23 @@ SOFTWARE.
 
 #include "../include/hexedit.h"
 
-void split_hexadecimal( char *start, int n) 
+void split_hexadecimal(char *start) 
  {
      unsigned int k=1;
      char *c=(char*)&k;
      if(*c)
      {
          int i; 
-         for (i = 0; i < n; i++) 
-         printf ( " %.2x" , start[i]&0xff); 
+         for (i=0; i < strlen(start); i++) 
+            printf ( " %.2x" , start[i]&0xff); 
          printf ( "\n" ); 
      } else
      {
-         printf("big\n");
+         int i;
+         for(i=0; i < strlen(start); i++)
+         {
+             printf("a");
+         }
      }
  } 
 
