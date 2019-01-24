@@ -29,7 +29,7 @@ SOFTWARE.
 
 #include "../include/hexedit.h"
 
-void split_hexadecimal(char *hexadecimal_str)
+void split_hexadecimal(char *s)
 {
      int i;
      unsigned int k=1;
@@ -59,7 +59,7 @@ void split_hexadecimal(char *hexadecimal_str)
     }
 }
 
-char *binary_file_to_hexadecimal(const char *file_location)
+char *binary_to_hexadecimal(const char *file_location)
 {
 	int curs;
 	int i, j;
