@@ -34,6 +34,6 @@ SOFTWARE.
 namespace hexedit
 {
   void split_hexadecimal(string &s);
-  string binary_to_hexadecimal(const string &file_location);
+  std::string binary_to_hexadecimal(const string &file_location);
 }
 #endif
