@@ -1,5 +1,5 @@
 /*
--> '/hexedit/include/hexedit.hpp'
+-> '/hexedit/include/hexedit.h'
 
 Copyright (c) 2019 B.Will.
 
@@ -24,16 +24,15 @@ SOFTWARE.
 
 // DEVELOPED by wil.tor
 
-#ifndef __HEXEDIT_HPP_
-#define __HEXEDIT_HPP_
+#ifndef __HEXEDIT_H_
+#define __HEXEDIT_H_
 
-#include <string>
-#include <cstdio>
-#include <cstdlib>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <stdio.h>
 
-namespace hexedit
-{
-  void split_hexadecimal(string &s);
-  std::string binary_to_hexadecimal(const string &file_location);
-}
+void split_hexadecimal(const char *s);
+char *binary_to_hexadecimal(const char *file_location);
+
 #endif
