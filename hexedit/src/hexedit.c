@@ -28,23 +28,30 @@ SOFTWARE.
 #define __HEXEDIT_C_
 
 #include "../include/hexedit.h"
+
 void split_hexadecimal(char *s)
 {
-     int i, j;
+     int i;
      unsigned int k=1;
      char *c=(char*)&k;
      unsigned int hexa_array[strlen(s)];
+     unsigned int temp;
      
-    for (j = 0; j < (strlen(s)/2); j++)
-        sscanf(s + 2*j, "%02x", &hexa_array[j]);
-        
+    for (i=0; i < (strlen(s)/2); i++)
+        sscanf(s + 2*i, "%02x", &hexa_array[i]);
+    
+    for (i=0; i < strlen(s)/2; i++)
+    {
+        temp=hexa_array[i];
+        hexa_array[i]=bswap_32(temp);
+    }
     for (i=0; i < strlen(s)/2; i++)
     {
         if(*c) // little-endian
         {
             if(i == 0)
                 printf("%.8x ->  ", i);
-
+            
             printf ("%.2x" , hexa_array[i]);
             
             if((i+1)%2 == 0)
