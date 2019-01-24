@@ -33,10 +33,10 @@ void split_hexadecimal(char *s)
      int i, j;
      unsigned int k=1;
      char *c=(char*)&k;
-     unsigned int bytearray[strlen(s)];
+     unsigned int hexa_array[strlen(s)];
      
     for (j = 0; j < (strlen(s)/2); j++)
-        sscanf(s + 2*j, "%02x", &bytearray[j]);
+        sscanf(s + 2*j, "%02x", &hexa_array[j]);
         
     for (i=0; i < strlen(s)/2; i++)
     {
@@ -45,7 +45,7 @@ void split_hexadecimal(char *s)
             if(i == 0)
                 printf("%.8x ->  ", i);
 
-            printf ("%.2x" , bytearray[i]);
+            printf ("%.2x" , hexa_array[i]);
             
             if((i+1)%2 == 0)
                 printf(" ");
@@ -57,7 +57,7 @@ void split_hexadecimal(char *s)
             if(i == 0)
                 printf("%.8x -> ", i);
 
-            printf ("%2x" , bytearray[i]);
+            printf ("%2x" , hexa_array[i]);
 
             if(i == 16*(i/16) && i != 0)
                 printf("\n%.8x -> ", i);
